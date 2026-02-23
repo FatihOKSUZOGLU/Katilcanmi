@@ -1,20 +1,58 @@
-<<<<<<< HEAD
-# katilcanmi_app
+# 💳 Artan Taksitli Ödeme Hesaplama Uygulaması
 
-A new Flutter project.
+Bu proje, Flutter ile geliştirilmiş bir **artan ve sabit taksitli ödeme
+planı hesaplama uygulamasıdır**.
 
-## Getting Started
+Kullanıcı;
 
-This project is a starting point for a Flutter application.
+-   📅 Teslim ayı
+-   📆 Toplam ödeme süresi
+-   💰 Peşinat
+-   🏦 Kredi tutarı
+-   📊 Katılım oranı (%)
+-   🔢 Katılımın kaç taksite bölüneceği
 
-A few resources to get you started if this is your first Flutter project:
+bilgilerini girerek detaylı bir ödeme tablosu oluşturabilir.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+------------------------------------------------------------------------
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Katilcanmi
->>>>>>> 49327100405e1c1b6ab87bdf4a82a04b0f38099b
+## 🚀 Özellikler
+
+-   ✅ Artan ve sabit taksit seçeneği
+-   ✅ Dinamik katılım oranı (%)
+-   ✅ Katılım taksit sayısı seçimi
+-   ✅ Validation kontrolü (0.40 altı kırmızı, üstü yeşil)
+-   ✅ Toplam ödeme yüzdesi hesaplama
+-   ✅ Dark Theme (Material 3)
+-   ✅ MVVM mimarisi (ChangeNotifier)
+
+------------------------------------------------------------------------
+
+## 🧠 Kullanılan Teknolojiler
+
+-   Flutter
+-   Provider (State Management)
+-   Material 3
+-   Dark Theme UI
+
+------------------------------------------------------------------------
+
+## 📦 Kurulum
+
+``` bash
+flutter pub get
+flutter run
+```
+
+------------------------------------------------------------------------
+
+## 📁 Proje Yapısı
+
+lib/ ├─ models/ ├─ viewmodels/ ├─ enums/ ├─ screens/ └─ main.dart
+
+------------------------------------------------------------------------
+
+## 🎯 Amaç
+
+Bu uygulama, artan taksitli ödeme modellerini analiz etmek ve ödeme
+planını görsel olarak incelemek amacıyla geliştirilmiştir.

@@ -24,8 +24,23 @@ class _PaymentScreenState extends State<PaymentScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Artan Taksitli Ödeme"),
         centerTitle: true,
+        title: Builder(
+          builder: (context) {
+            double imageSize = MediaQuery.of(context).size.width * 0.08;
+
+            return Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Image.asset("assets/images/crocs.png", width: imageSize),
+                SizedBox(width: 10),
+                Text("KATILCAN MI?"),
+                SizedBox(width: 10),
+                Image.asset("assets/images/crocs.png", width: imageSize),
+              ],
+            );
+          },
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
